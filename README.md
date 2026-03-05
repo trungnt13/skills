@@ -6,9 +6,8 @@ A curated collection of reusable **skills** and **agent definitions** that can b
 
 | Path | Description |
 |------|-------------|
-| [`agents.md`](./agents.md) | Catalogue of agent definitions and their capabilities |
 | `skills/` | Individual skill implementations (tools, functions, prompts) |
-| `workflows/` | Composed multi-agent workflows |
+| `agents/` | Composed multi-agent workflows |
 
 ## Concepts
 
@@ -26,26 +25,6 @@ Agents are defined by:
 - A **skill list** (which tools it may use)
 - An optional **memory** backend (short-term context, long-term vector store)
 - An **orchestration strategy** (ReAct, Plan-and-Execute, reflection loop, …)
-
-## Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/<your-org>/skills.git
-cd skills
-
-# Browse available agents
-cat agents.md
-
-# Browse available skills
-ls skills/
-```
-
-## Contributing
-
-1. **New skill** → add a file under `skills/<name>/` with a `skill.json` schema and implementation.
-2. **New agent** → add an entry to [`agents.md`](./agents.md) following the existing template.
-3. Open a PR with a short description of the capability added.
 
 ## License
 
