@@ -9,6 +9,43 @@ A curated collection of reusable **skills** and **agent definitions** that can b
 | `skills/` | Individual skill implementations (tools, functions, prompts) |
 | `agents/` | Composed multi-agent workflows |
 
+## Use as a GitHub Copilot CLI plugin
+
+This repository can be installed directly as a Copilot CLI plugin and will expose the skills in `skills/` plus the deep-dive agent bundle in `agents/deepdive/`.
+
+Install from GitHub:
+
+```bash
+copilot plugin install trungnt13/skills
+```
+
+Install from a local checkout:
+
+```bash
+copilot plugin install /abs/path/to/skills
+```
+
+Verify that the plugin loaded:
+
+```bash
+copilot plugin list
+```
+
+The deep-dive agents are exposed with a plugin-qualified name such as `trungnt13-skills/deepdive`.
+
+Run an agent directly:
+
+```bash
+copilot --agent trungnt13-skills/deepdive -p "Explain how this codebase is structured."
+```
+
+Or, inside an interactive Copilot CLI session:
+
+```text
+/agent
+/skills list
+```
+
 ## Concepts
 
 ### Skill

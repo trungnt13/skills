@@ -1,0 +1,31 @@
+{
+  "name": "trungnt13-skills",
+  "description": "Reusable GitHub Copilot CLI skills and deep-dive research agents.",
+  "version": "0.1.0",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "copilot-cli",
+    "plugin",
+    "skills",
+    "agents",
+    "research",
+    "vscode"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "copilot",
+    "plugin",
+    "skills",
+    "agents"
+  ],
+  "agents": [
+    "agents/deepdive/"
+  ],
+  "skills": "skills/"
+}
