@@ -1,6 +1,6 @@
 {
   "name": "trungnt13-skills",
-  "description": "Reusable GitHub Copilot CLI skills and deep-dive research agents.",
+  "description": "Reusable GitHub Copilot CLI skills plus deep-dive research and Boris-style workflow agents.",
   "version": "0.1.0",
   "author": {
     "name": "trungnt13",
@@ -25,7 +25,9 @@
     "agents"
   ],
   "agents": [
-    "agents/deepdive/"
+    "agents/deepdive/",
+    "agents/boris/",
+    "agents/consensus/"
   ],
   "skills": "skills/"
 }
