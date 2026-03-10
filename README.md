@@ -2,30 +2,55 @@
 
 A curated collection of reusable **skills** and **agent definitions** that can be composed to build capable AI-powered workflows.
 
+This repository now follows the marketplace-style layout used by [`github/copilot-plugins`](https://github.com/github/copilot-plugins): the repo root publishes marketplace metadata, and the installable plugin lives in `plugins/`.
+
 ## What's in this repo?
 
 | Path | Description |
 |------|-------------|
-| `skills/` | Individual skill implementations (tools, functions, prompts) |
-| `agents/` | Composed multi-agent workflows |
+| `.github/plugin/marketplace.json` | GitHub Copilot marketplace index |
+| `.claude-plugin/marketplace.json` | Claude-compatible marketplace index |
+| `plugins/` | Installable plugin bundle containing all skills and agent bundles |
 
-## Use as a GitHub Copilot CLI plugin
+## Install from a Marketplace
 
-This repository can be installed directly as a Copilot CLI plugin and will expose the skills in `skills/` plus the agent bundles in `agents/`.
+Add the repository as a marketplace:
 
-Install from GitHub:
+```bash
+copilot plugin marketplace add trungnt13/skills
+```
+
+Install the bundled plugin from that marketplace:
+
+```bash
+copilot plugin install trungnt13-skills@trungnt13
+```
+
+Claude Code uses the same marketplace layout. Add the marketplace and install the plugin with:
+
+```bash
+/plugin marketplace add trungnt13/skills
+/plugin install trungnt13-skills@trungnt13
+```
+
+If your Claude Code git setup prefers HTTPS, use:
+
+```bash
+/plugin marketplace add https://github.com/trungnt13/skills.git
+```
+
+## Direct Plugin Install
+
+For GitHub Copilot CLI, the repository still keeps a compatibility `plugin.json` at the root, so direct installs continue to work:
 
 ```bash
 copilot plugin install trungnt13/skills
-```
-
-Install from a local checkout:
-
-```bash
+copilot plugin install trungnt13/skills:plugins
 copilot plugin install /abs/path/to/skills
+copilot plugin install /abs/path/to/skills/plugins
 ```
 
-Verify that the plugin loaded:
+Verify installed plugins with:
 
 ```bash
 copilot plugin list
@@ -77,10 +102,45 @@ A first-principles research bundle for tracing behavior, explaining architecture
 ### `boris`
 A coding agent adapted from Boris Cherny's latest public Claude Code workflow guidance. It starts complex work with a plan, insists on verification, and performs a cleanup/simplification pass before finishing.
 
-Source baseline: `https://howborisusesclaudecode.com/api/install` version `2.2.0` dated `2026-02-27`. See `agents/boris/SOURCES.md` for provenance and adaptation notes.
+Source baseline: `https://howborisusesclaudecode.com/api/install` version `2.2.0` dated `2026-02-27`. See `plugins/agents/boris/SOURCES.md` for provenance and adaptation notes.
+
+## Marketplace Naming
+
+The install target `trungnt13-skills@trungnt13` comes from two different fields:
+
+- Plugin name: `plugins/plugin.json` `name` = `trungnt13-skills`
+- Marketplace owner: `.github/plugin/marketplace.json` `owner.name` = `trungnt13`
+
+Examples:
+
+- Change only `plugins/plugin.json` `name` to `skills` and installs become `skills@trungnt13`
+- Change only `.github/plugin/marketplace.json` `owner.name` to `team` and installs become `trungnt13-skills@team`
+- Change both and installs follow the new pair
 
 ### `consensus`
 A read-only coordinator that gathers focused context, dispatches the same brief to GPT, Claude, and Gemini worker agents, and synthesizes one evidence-backed answer for analysis and debugging tasks.
+
+## Included Skills
+
+### `vscode`
+Instructions for working effectively in VS Code-focused environments.
+
+### `obsidian-markdown`
+Create and edit Obsidian-flavored Markdown notes with wikilinks, embeds, callouts, and frontmatter.
+
+### `obsidian-bases`
+Create and edit Obsidian `.base` files with views, filters, formulas, and summaries.
+
+### `json-canvas`
+Create and edit Obsidian/JSON Canvas `.canvas` files with nodes, edges, groups, and connections.
+
+### `obsidian-cli`
+Operate against a running Obsidian instance from the command line, including vault and plugin-development workflows.
+
+### `defuddle`
+Extract clean markdown from standard web pages using Defuddle.
+
+The Obsidian-related skills above are vendored from [`kepano/obsidian-skills`](https://github.com/kepano/obsidian-skills) and kept in their original skill-directory layout.
 
 ## License
 

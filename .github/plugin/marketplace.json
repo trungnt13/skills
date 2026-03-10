@@ -1,0 +1,35 @@
+{
+  "name": "trungnt13",
+  "metadata": {
+    "description": "Marketplace for trungnt13's reusable GitHub Copilot CLI and Claude Code skills and agents.",
+    "version": "0.2.0"
+  },
+  "owner": {
+    "name": "trungnt13"
+  },
+  "plugins": [
+    {
+      "name": "trungnt13-skills",
+      "source": "./plugins",
+      "description": "Reusable skills plus deep-dive, Boris-style, and consensus agent bundles for GitHub Copilot CLI and Claude Code.",
+      "version": "0.2.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "skills",
+        "agents",
+        "research",
+        "vscode",
+        "obsidian"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    }
+  ]
+}
