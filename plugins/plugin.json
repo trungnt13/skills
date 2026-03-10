@@ -29,7 +29,8 @@
   "agents": [
     "agents/deepdive/",
     "agents/boris/",
-    "agents/consensus/"
+    "agents/consensus/",
+    "agents/git-commit-push/"
   ],
   "skills": "skills/"
 }

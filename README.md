@@ -61,6 +61,7 @@ The included agents are exposed with plugin-qualified names such as:
 - `trungnt13-skills/deepdive`
 - `trungnt13-skills/boris`
 - `trungnt13-skills/consensus`
+- `trungnt13-skills/git-commit-push`
 
 Run an agent directly:
 
@@ -68,6 +69,7 @@ Run an agent directly:
 copilot --agent trungnt13-skills/deepdive -p "Explain how this codebase is structured."
 copilot --agent trungnt13-skills/boris -p "Implement this change with a plan-first, verify-first workflow."
 copilot --agent trungnt13-skills/consensus -p "Compare the likely root cause of this bug and give me one final answer."
+copilot --agent trungnt13-skills/git-commit-push -p "Commit and push the current changes with a conventional commit message."
 ```
 
 Or, inside an interactive Copilot CLI session:
@@ -119,6 +121,11 @@ Examples:
 
 ### `consensus`
 A read-only coordinator that gathers focused context, dispatches the same brief to GPT, Claude, and Gemini worker agents, and synthesizes one evidence-backed answer for analysis and debugging tasks.
+
+### `git-commit-push`
+A user-invocable git workflow agent for staging, drafting conventional commits, committing, and pushing with safety checks.
+
+Source baseline: copied from `notes-research/.github/agents/git.agent.md` on `2026-03-10`. The source repository is another local repo owned by the same author and did not declare a separate license file at the repo root when copied.
 
 ## Included Skills
 
