@@ -1,0 +1,19 @@
+{
+  "name": "consensus",
+  "version": "0.3.0",
+  "description": "Multi-model coordinator that gathers context and synthesizes one authoritative answer.",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "agent",
+    "analysis",
+    "multi-model"
+  ]
+}

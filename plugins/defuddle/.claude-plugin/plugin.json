@@ -1,7 +1,7 @@
 {
-  "name": "trungnt13-skills",
-  "version": "0.2.0",
-  "description": "Reusable Claude Code skills plus deep-dive, Boris-style, and consensus agent bundles.",
+  "name": "defuddle",
+  "version": "0.3.0",
+  "description": "Defuddle skill for extracting clean markdown from web pages.",
   "author": {
     "name": "trungnt13",
     "url": "https://github.com/trungnt13"
@@ -12,10 +12,8 @@
   "keywords": [
     "claude-code",
     "plugin",
-    "skills",
-    "agents",
-    "research",
-    "vscode",
-    "obsidian"
+    "skill",
+    "web",
+    "markdown"
   ]
 }

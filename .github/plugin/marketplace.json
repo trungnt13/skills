@@ -2,7 +2,7 @@
   "name": "trungnt13",
   "metadata": {
     "description": "Marketplace for trungnt13's reusable GitHub Copilot CLI and Claude Code skills and agents.",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "owner": {
     "name": "trungnt13"
@@ -10,9 +10,9 @@
   "plugins": [
     {
       "name": "trungnt13-skills",
-      "source": "./plugins",
-      "description": "Reusable skills plus deep-dive, Boris-style, and consensus agent bundles for GitHub Copilot CLI and Claude Code.",
-      "version": "0.2.0",
+      "source": "./plugins/trungnt13-skills",
+      "description": "All-in-one bundle of trungnt13's skills and agents for GitHub Copilot CLI and Claude Code.",
+      "version": "0.3.0",
       "author": {
         "name": "trungnt13",
         "url": "https://github.com/trungnt13"
@@ -26,6 +26,216 @@
         "research",
         "vscode",
         "obsidian"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "deepdive",
+      "source": "./plugins/deepdive",
+      "description": "First-principles research bundle for architecture tracing, deep explanations, and adversarial verification.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "agent",
+        "research",
+        "architecture"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "boris",
+      "source": "./plugins/boris",
+      "description": "Plan-first coding workflow adapted from Boris Cherny's Claude Code guidance.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "agent",
+        "coding",
+        "workflow"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "consensus",
+      "source": "./plugins/consensus",
+      "description": "Multi-model coordinator that gathers context and synthesizes one authoritative answer.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "agent",
+        "analysis",
+        "multi-model"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "git-commit-push",
+      "source": "./plugins/git-commit-push",
+      "description": "Git workflow agent for staging, conventional commits, and safe pushes.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "agent",
+        "git",
+        "commit"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "vscode",
+      "source": "./plugins/vscode",
+      "description": "VS Code diff and comparison skill.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "skill",
+        "vscode",
+        "diff"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "obsidian-markdown",
+      "source": "./plugins/obsidian-markdown",
+      "description": "Obsidian Flavored Markdown skill with wikilinks, embeds, callouts, and properties.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "skill",
+        "obsidian",
+        "markdown"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "obsidian-bases",
+      "source": "./plugins/obsidian-bases",
+      "description": "Obsidian Bases skill for .base files, views, filters, formulas, and summaries.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "skill",
+        "obsidian",
+        "bases"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "json-canvas",
+      "source": "./plugins/json-canvas",
+      "description": "JSON Canvas skill for .canvas files, nodes, edges, and visual maps.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "skill",
+        "json-canvas",
+        "obsidian"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "obsidian-cli",
+      "source": "./plugins/obsidian-cli",
+      "description": "Obsidian CLI skill for vault operations and plugin development workflows.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "skill",
+        "obsidian",
+        "cli"
+      ],
+      "category": "developer-tools",
+      "license": "MIT",
+      "strict": false
+    },
+    {
+      "name": "defuddle",
+      "source": "./plugins/defuddle",
+      "description": "Defuddle skill for extracting clean markdown from web pages.",
+      "version": "0.3.0",
+      "author": {
+        "name": "trungnt13",
+        "url": "https://github.com/trungnt13"
+      },
+      "keywords": [
+        "copilot",
+        "claude",
+        "plugin",
+        "skill",
+        "web",
+        "markdown"
       ],
       "category": "developer-tools",
       "license": "MIT",

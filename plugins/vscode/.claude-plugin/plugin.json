@@ -1,0 +1,19 @@
+{
+  "name": "vscode",
+  "version": "0.3.0",
+  "description": "VS Code diff and comparison skill.",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "skill",
+    "vscode",
+    "diff"
+  ]
+}

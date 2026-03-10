@@ -1,0 +1,19 @@
+{
+  "name": "boris",
+  "version": "0.3.0",
+  "description": "Plan-first coding workflow adapted from Boris Cherny's Claude Code guidance.",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "agent",
+    "coding",
+    "workflow"
+  ]
+}

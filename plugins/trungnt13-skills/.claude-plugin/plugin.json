@@ -1,0 +1,21 @@
+{
+  "name": "trungnt13-skills",
+  "version": "0.3.0",
+  "description": "All-in-one bundle of trungnt13's Claude Code skills and agents.",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "skills",
+    "agents",
+    "research",
+    "vscode",
+    "obsidian"
+  ]
+}

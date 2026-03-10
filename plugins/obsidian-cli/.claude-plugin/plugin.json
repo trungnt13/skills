@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-cli",
+  "version": "0.3.0",
+  "description": "Obsidian CLI skill for vault operations and plugin development workflows.",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "skill",
+    "obsidian",
+    "cli"
+  ]
+}

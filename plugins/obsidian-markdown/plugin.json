@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-markdown",
+  "description": "Obsidian Flavored Markdown skill with wikilinks, embeds, callouts, and properties.",
+  "version": "0.3.0",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "copilot-cli",
+    "claude-code",
+    "plugin",
+    "skill",
+    "obsidian",
+    "markdown"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "copilot",
+    "claude",
+    "plugin",
+    "skill",
+    "obsidian"
+  ],
+  "skills": "skills/"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-bases",
+  "version": "0.3.0",
+  "description": "Obsidian Bases skill for .base files, views, filters, formulas, and summaries.",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "skill",
+    "obsidian",
+    "bases"
+  ]
+}

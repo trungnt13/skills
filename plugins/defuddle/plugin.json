@@ -1,0 +1,29 @@
+{
+  "name": "defuddle",
+  "description": "Defuddle skill for extracting clean markdown from web pages.",
+  "version": "0.3.0",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "copilot-cli",
+    "claude-code",
+    "plugin",
+    "skill",
+    "web",
+    "markdown"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "copilot",
+    "claude",
+    "plugin",
+    "skill",
+    "web"
+  ],
+  "skills": "skills/"
+}

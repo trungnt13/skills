@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-markdown",
+  "version": "0.3.0",
+  "description": "Obsidian Flavored Markdown skill with wikilinks, embeds, callouts, and properties.",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "skill",
+    "obsidian",
+    "markdown"
+  ]
+}

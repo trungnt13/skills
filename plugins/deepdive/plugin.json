@@ -1,0 +1,31 @@
+{
+  "name": "deepdive",
+  "description": "First-principles research bundle for architecture tracing, deep explanations, and adversarial verification.",
+  "version": "0.3.0",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "copilot-cli",
+    "claude-code",
+    "plugin",
+    "agent",
+    "research",
+    "architecture"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "copilot",
+    "claude",
+    "plugin",
+    "agent",
+    "research"
+  ],
+  "agents": [
+    "agents/deepdive/"
+  ]
+}

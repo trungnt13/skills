@@ -1,0 +1,19 @@
+{
+  "name": "json-canvas",
+  "version": "0.3.0",
+  "description": "JSON Canvas skill for .canvas files, nodes, edges, and visual maps.",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "skill",
+    "json-canvas",
+    "obsidian"
+  ]
+}

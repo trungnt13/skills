@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"window.title": "${activeEditorFull}${separator}${rootName}${separator}[Branch: main]",
+		"chat.agentFilesLocations": {
+			".github/agents": true,
+			"agents/boris": true,
+			"agents/consensus": true,
+			"agents/deepdive": true
+		}
+	}
+}

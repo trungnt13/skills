@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-bases",
+  "description": "Obsidian Bases skill for .base files, views, filters, formulas, and summaries.",
+  "version": "0.3.0",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "copilot-cli",
+    "claude-code",
+    "plugin",
+    "skill",
+    "obsidian",
+    "bases"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "copilot",
+    "claude",
+    "plugin",
+    "skill",
+    "obsidian"
+  ],
+  "skills": "skills/"
+}

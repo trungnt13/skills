@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-cli",
+  "description": "Obsidian CLI skill for vault operations and plugin development workflows.",
+  "version": "0.3.0",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "copilot-cli",
+    "claude-code",
+    "plugin",
+    "skill",
+    "obsidian",
+    "cli"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "copilot",
+    "claude",
+    "plugin",
+    "skill",
+    "obsidian"
+  ],
+  "skills": "skills/"
+}

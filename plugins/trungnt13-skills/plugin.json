@@ -11,6 +11,7 @@
   "license": "MIT",
   "keywords": [
     "copilot-cli",
+    "claude-code",
     "plugin",
     "skills",
     "agents",
@@ -20,15 +21,16 @@
   "category": "developer-tools",
   "tags": [
     "copilot",
+    "claude",
     "plugin",
     "skills",
     "agents"
   ],
   "agents": [
-    "plugins/trungnt13-skills/agents/deepdive/",
-    "plugins/trungnt13-skills/agents/boris/",
-    "plugins/trungnt13-skills/agents/consensus/",
-    "plugins/trungnt13-skills/agents/git-commit-push/"
+    "agents/deepdive/",
+    "agents/boris/",
+    "agents/consensus/",
+    "agents/git-commit-push/"
   ],
-  "skills": "plugins/trungnt13-skills/skills/"
+  "skills": "skills/"
 }

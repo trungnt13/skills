@@ -1,0 +1,29 @@
+{
+  "name": "json-canvas",
+  "description": "JSON Canvas skill for .canvas files, nodes, edges, and visual maps.",
+  "version": "0.3.0",
+  "author": {
+    "name": "trungnt13",
+    "url": "https://github.com/trungnt13"
+  },
+  "homepage": "https://github.com/trungnt13/skills",
+  "repository": "https://github.com/trungnt13/skills",
+  "license": "MIT",
+  "keywords": [
+    "copilot-cli",
+    "claude-code",
+    "plugin",
+    "skill",
+    "json-canvas",
+    "obsidian"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "copilot",
+    "claude",
+    "plugin",
+    "skill",
+    "canvas"
+  ],
+  "skills": "skills/"
+}

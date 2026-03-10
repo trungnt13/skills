@@ -1,7 +1,7 @@
 {
-  "name": "trungnt13-skills",
-  "description": "Reusable GitHub Copilot CLI and Claude Code skills plus deep-dive research and Boris-style workflow agents.",
-  "version": "0.2.0",
+  "name": "consensus",
+  "description": "Multi-model coordinator that gathers context and synthesizes one authoritative answer.",
+  "version": "0.3.0",
   "author": {
     "name": "trungnt13",
     "url": "https://github.com/trungnt13"
@@ -13,24 +13,19 @@
     "copilot-cli",
     "claude-code",
     "plugin",
-    "skills",
-    "agents",
-    "research",
-    "vscode"
+    "agent",
+    "analysis",
+    "multi-model"
   ],
   "category": "developer-tools",
   "tags": [
     "copilot",
     "claude",
     "plugin",
-    "skills",
-    "agents"
+    "agent",
+    "analysis"
   ],
   "agents": [
-    "agents/deepdive/",
-    "agents/boris/",
-    "agents/consensus/",
-    "agents/git-commit-push/"
-  ],
-  "skills": "skills/"
+    "agents/consensus/"
+  ]
 }
